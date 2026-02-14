@@ -65,19 +65,19 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-gray-800 pt-6 text-center">
-          <p className="text-xs text-gray-500">{"Stoli Uniforms. Todos los derechos reservados."}</p>
-          <p className="text-xs text-gray-500 mt-2">
-            Desarrollado por{" "}
+  <p className="text-xs text-gray-500">{"Stoli Uniforms. Todos los derechos reservados."}</p>
+  <p className="text-xs text-gray-500 mt-2">
+    Desarrollado por{" "}
     
-              href="https://www.facebook.com/XantTecnologia/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-            Xant
-            </a>
-          </p>
-        </div>
+      href="https://www.facebook.com/XantTecnologia/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-400 hover:text-white transition-colors"
+    >
+      Xant
+    </a>
+  </p>
+</div>
       </div>
     </footer>
   )
