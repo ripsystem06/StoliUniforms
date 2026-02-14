@@ -44,7 +44,7 @@ export function Hero() {
           Creamos el uniforme que necesitas
         </h1>
         <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-gray-300 md:text-xl">
-          Diseno y manufactura de uniformes deportivos personalizados con
+          Diseño y manufactura de uniformes deportivos personalizados con
           sublimacion de alta calidad. Para equipos, escuelas y empresas.
         </p>
         <div className="mt-10 flex flex-col items-center md:items-start gap-4 sm:flex-row">
