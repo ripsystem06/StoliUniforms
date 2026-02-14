@@ -196,37 +196,6 @@ export function TeamsGallery() {
               aria-label={`Ir al equipo ${index + 1}`}
             />
           ))}
-          <button
-            type="button"
-            onClick={goPrev}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-700 text-gray-400 transition-colors hover:border-red-500 hover:text-white"
-            aria-label="Anterior"
-          >
-            <ChevronLeft className="h-5 w-5" />
-          </button>
-          <div className="flex items-center gap-2">
-            {teams.map((_, index) => (
-              <button
-                key={teams[index].id}
-                type="button"
-                onClick={() => setActiveIndex(index)}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  index === activeIndex
-                    ? "w-10 bg-red-500"
-                    : "w-4 bg-gray-700 hover:bg-gray-500"
-                }`}
-                aria-label={`Ir al equipo ${index + 1}`}
-              />
-            ))}
-          </div>
-          <button
-            type="button"
-            onClick={goNext}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-700 text-gray-400 transition-colors hover:border-red-500 hover:text-white"
-            aria-label="Siguiente"
-          >
-            <ChevronRight className="h-5 w-5" />
-          </button>
         </div>
       </div>
     </section>
