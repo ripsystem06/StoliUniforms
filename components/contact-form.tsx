@@ -53,7 +53,7 @@ export function ContactForm() {
             </h3>
             <p className="mt-3 max-w-md text-muted-foreground leading-relaxed">
               Se abrio WhatsApp con tu mensaje. Si no se abrio automaticamente,
-              por favor contactanos directamente al +52 812 345 6789.
+              por favor contactanos directamente al +52 646 216 63 11.
             </p>
             <Button
               type="button"
