@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: "Stoli Uniforms | Uniformes Deportivos Personalizados",
   description:
     "Manufactura de uniformes deportivos sublimados personalizados para soccer, futbol americano, beisbol, voleibol y basquetbol. Cotiza sin compromiso.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export const viewport: Viewport = {
