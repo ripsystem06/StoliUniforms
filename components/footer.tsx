@@ -18,7 +18,6 @@ export function Footer() {
               Uniformes deportivos sublimados personalizados para equipos, escuelas y empresas.
             </p>
           </div>
-
           <div className="flex flex-col items-center md:items-end gap-6">
             <div className="flex items-center gap-6">
               
@@ -38,10 +37,9 @@ export function Footer() {
                 Instagram
               </a>
             </div>
-
             <div className="flex items-center gap-4 mt-2">
               <Link href="/terms" className="text-sm text-gray-400 hover:text-white">
-                Términos
+                T&#233;rminos
               </Link>
               <Link href="/aviso-legal" className="text-sm text-gray-400 hover:text-white">
                 Aviso Legal
@@ -55,9 +53,8 @@ export function Footer() {
             </div>
           </div>
         </div>
-
         <div className="mt-8 border-t border-gray-800 pt-6 text-center">
-          <p className="text-xs text-gray-500">{"Stoli Uniforms. Todos los derechos reservados."}</p>
+          <p className="text-xs text-gray-500">Stoli Uniforms. Todos los derechos reservados.</p>
           <p className="text-xs text-gray-500 mt-2">
             Desarrollado por{" "}
             
