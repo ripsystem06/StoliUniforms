@@ -21,7 +21,7 @@ export function Footer() {
 
           <div className="flex flex-col items-center md:items-end gap-6">
             <div className="flex items-center gap-6">
-              <a
+              
                 href="https://www.facebook.com/STOLIUNIFORMS"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,21 +29,13 @@ export function Footer() {
               >
                 Facebook
               </a>
-              <a
+              
                 href="https://www.instagram.com/stoliuniforms"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-gray-400 transition-colors hover:text-white"
               >
                 Instagram
-              </a>
-              <a
-                href="https://www.stoliuniforms.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-gray-400 transition-colors hover:text-white"
-              >
-                Web
               </a>
             </div>
 
@@ -65,19 +57,19 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-gray-800 pt-6 text-center">
-  <p className="text-xs text-gray-500">{"Stoli Uniforms. Todos los derechos reservados."}</p>
-  <p className="text-xs text-gray-500 mt-2">
-    Desarrollado por{" "}
-    
-      href="https://www.facebook.com/XantTecnologia/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-gray-400 hover:text-white transition-colors"
-    >
-      Xant
-    </a>
-  </p>
-</div>
+          <p className="text-xs text-gray-500">{"Stoli Uniforms. Todos los derechos reservados."}</p>
+          <p className="text-xs text-gray-500 mt-2">
+            Desarrollado por{" "}
+            
+              href="https://www.facebook.com/XantTecnologia/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              Xant
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   )
