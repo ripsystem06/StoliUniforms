@@ -26,7 +26,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <video
           ref={videoRef}
-          src="/vid/bannerstoli.webm"
+          src="/bannerstoli.webm"
           className={`w-full h-full object-cover transition-opacity duration-300 ${fading ? "opacity-0" : "opacity-100"}`}
           autoPlay
           muted
