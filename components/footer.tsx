@@ -47,7 +47,7 @@ export function Footer() {
           <p className="text-xs text-gray-500">Stoli Uniforms. Todos los derechos reservados.</p>
           <p className="text-xs text-white mt-2">
             Desarrollado por{" "}
-            <a ha href="https://www.facebook.com/XantTecnologia/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
+            <a href="https://www.facebook.com/XantTecnologia/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
               Xant
             </a>
           </p>

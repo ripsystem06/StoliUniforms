@@ -4,6 +4,7 @@ import { Roboto, Montserrat } from "next/font/google"
 import { AppProviders } from "@/components/app-providers"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const roboto = Roboto({
@@ -22,7 +23,18 @@ export const metadata: Metadata = {
   description:
     "Manufactura de uniformes deportivos sublimados personalizados para soccer, futbol americano, beisbol, voleibol y basquetbol. Cotiza sin compromiso.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    other: [
+      {
+        rel: "manifest",
+        url: "/site.webmanifest",
+      },
+    ],
   },
   openGraph: {
     title: "Stoli Uniforms | Uniformes Deportivos Personalizados",
@@ -68,6 +80,7 @@ export default function RootLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <Analytics />
         </AppProviders>
       </body>
     </html>
